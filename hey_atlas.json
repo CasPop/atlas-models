@@ -1,0 +1,15 @@
+{
+  "type": "micro",
+  "wake_word": "hey atlas",
+  "author": "Stephen Stidham",
+  "website": "https://github.com/CasPop/Atlas",
+  "model": "https://raw.githubusercontent.com/CasPop/atlas-models/main/hey_atlas.tflite",
+  "version": 2,
+  "trained_languages": ["en"],
+  "micro": {
+    "probability_cutoff": 0.90,
+    "sliding_window_size": 10,
+    "feature_step_size": 10,
+    "tensor_arena_size": 45000
+  }
+}
